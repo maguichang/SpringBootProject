@@ -1,0 +1,12 @@
+server:
+ port: 8081
+
+person:
+  lastName: mgc5320@163.com${random.uuid}
+  age: 20
+  boss: false
+
+  maps: {k1: v1,k2: 666}
+  lists:
+   - 1
+   - ${person.lastName}_2
